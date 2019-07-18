@@ -1,0 +1,19 @@
+execution:
+  - concurrency: 1000
+    ramp-up: 1m
+    hold-for: 5m
+    scenario: quick-test
+
+scenarios:
+  quick-test:
+    default-address: http://192.168.0.242:9999
+    requests:
+    - url: '/oauth/token'
+      method: POST
+      headers:
+        Authorization: Basic bWFuYWdlci1wb3J0YWw6MTIzNDU=
+      body:
+        username: admin
+        password: 123456
+        grant_type: password
+

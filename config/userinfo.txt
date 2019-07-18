@@ -1,0 +1,16 @@
+--1234567890
+Content-Disposition: form-data; name="grant_type";
+Content-Type: text/plain
+
+password
+--1234567890
+Content-Disposition: form-data; name="username";
+Content-Type: text/plain
+
+admin
+--1234567890
+Content-Disposition: form-data; name="password";
+Content-Type: text/plain
+
+123456
+--1234567890
