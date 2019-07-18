@@ -1,6 +1,6 @@
-package com.hncy.scenarios
+package io.github.tintinrevient.scenarios
 
-import com.hncy.requests.{PingRequest}
+import io.github.tintinrevient.requests.{PingRequest}
 import io.gatling.core.Predef.scenario
 
 object PingScenario {

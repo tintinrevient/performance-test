@@ -1,6 +1,6 @@
-package com.hncy.requests
+package io.github.tintinrevient.requests
 
-import com.hncy.config.Config.login_url
+import io.github.tintinrevient.config.Config.login_url
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 

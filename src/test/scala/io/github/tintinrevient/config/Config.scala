@@ -1,4 +1,4 @@
-package com.hncy.config
+package io.github.tintinrevient.config
 
 object Config {
 //  val login_url = "http://auth.hncy.com/auth/oauth/token"

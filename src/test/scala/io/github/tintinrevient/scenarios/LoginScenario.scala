@@ -1,6 +1,6 @@
-package com.hncy.scenarios
+package io.github.tintinrevient.scenarios
 
-import com.hncy.requests.{LoginRequest}
+import io.github.tintinrevient.requests.{LoginRequest}
 import io.gatling.core.Predef.scenario
 
 object LoginScenario {

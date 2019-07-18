@@ -1,11 +1,11 @@
-package com.hncy.simulations
+package io.github.tintinrevient.simulations
 
-import com.hncy.scenarios.LoginScenario
-import com.hncy.config.Config._
+import io.github.tintinrevient.scenarios.LoginScenario
+import io.github.tintinrevient.config.Config._
 import io.gatling.core.Predef.Simulation
 import io.gatling.core.Predef._
 import scala.concurrent.duration._
-import com.hncy.scenarios.PingScenario
+import io.github.tintinrevient.scenarios.PingScenario
 
 class DemoSimulation extends Simulation {
 
